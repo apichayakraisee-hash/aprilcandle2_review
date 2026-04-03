@@ -71,11 +71,11 @@ export default function App() {
       </style>
 
       {/* ส่วนหัวแบนเนอร์สีเหลือง (#e8c601) จัดขนาดให้เป๊ะตามแบบ 1.png */}
-      <div className="w-full bg-[#e8c601] pt-20 pb-16 px-4 flex flex-col items-center justify-center border-b border-black/10">
-        <h1 className="text-[3.5rem] md:text-7xl font-[900] text-black leading-[1.1] tracking-tight text-center">
+      <div className="w-full bg-[#e8c601] pt-16 pb-12 px-4 flex flex-col items-center justify-center border-b border-black/10">
+        <h1 className="text-4xl md:text-7xl font-[900] text-black leading-[1.1] tracking-tight text-center">
           Reviewกดบัตร
         </h1>
-        <h2 className="text-[3.5rem] md:text-7xl font-[900] text-black leading-[1.1] tracking-tight text-center mt-2">
+        <h2 className="text-2xl md:text-5xl font-[900] text-black leading-[1.1] tracking-tight text-center mt-2">
           @aprilcandle2
         </h2>
       </div>
@@ -86,29 +86,29 @@ export default function App() {
         {/* ปุ่ม thaiticketmajor */}
         <button 
           onClick={() => setCurrentView('ttm')}
-          className="w-full bg-[#fdfaf0] hover:bg-[#f5f1df] transition-transform hover:scale-[1.02] active:scale-95 rounded-[1.2rem] py-5 px-6 flex flex-row items-center justify-center gap-4 shadow-sm border border-gray-100 cursor-pointer"
+          className="w-full bg-[#fdfaf0] hover:bg-[#f5f1df] transition-transform hover:scale-[1.02] active:scale-95 rounded-[1.2rem] py-4 px-6 flex flex-row items-center justify-center gap-3 shadow-sm border border-gray-100 cursor-pointer"
         >
           <img 
             src="https://i.postimg.cc/Mpfxz0kd/image.png" 
             alt="TTM Logo" 
-            className="h-[3.5rem] object-contain drop-shadow-sm" 
+            className="h-10 md:h-14 object-contain drop-shadow-sm" 
             referrerPolicy="no-referrer"
           />
-          <span className="text-[2.2rem] md:text-[2.5rem] font-[800] text-black tracking-tight">thaiticketmajor</span>
+          <span className="text-xl md:text-4xl font-[800] text-black tracking-tight">thaiticketmajor</span>
         </button>
 
         {/* ปุ่ม allticket */}
         <button 
           onClick={() => setCurrentView('allticket')}
-          className="w-full bg-[#fdfaf0] hover:bg-[#f5f1df] transition-transform hover:scale-[1.02] active:scale-95 rounded-[1.2rem] py-5 px-6 flex flex-row items-center justify-center gap-4 shadow-sm border border-gray-100 cursor-pointer"
+          className="w-full bg-[#fdfaf0] hover:bg-[#f5f1df] transition-transform hover:scale-[1.02] active:scale-95 rounded-[1.2rem] py-4 px-6 flex flex-row items-center justify-center gap-3 shadow-sm border border-gray-100 cursor-pointer"
         >
           <img 
             src="https://i.postimg.cc/KzDxdZXy/image.png" 
             alt="AllTicket Logo" 
-            className="h-[3.5rem] object-contain drop-shadow-sm" 
+            className="h-10 md:h-14 object-contain drop-shadow-sm" 
             referrerPolicy="no-referrer"
           />
-          <span className="text-[2.2rem] md:text-[2.5rem] font-[800] text-black tracking-tight">allticket</span>
+          <span className="text-xl md:text-4xl font-[800] text-black tracking-tight">allticket</span>
         </button>
 
       </div>
