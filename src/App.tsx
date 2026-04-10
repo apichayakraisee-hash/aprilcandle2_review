@@ -78,7 +78,7 @@ export default function App() {
       document.getElementsByTagName('head')[0].appendChild(link);
     }
     // วางลิงก์รูปภาพของคุณตรงนี้ (แนะนำเป็นรูปสี่เหลี่ยมจัตุรัส)
-    link.href = "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/jgfx2n2mpfb9nmvwlyto.webp"; 
+    link.href = "https://i.ibb.co/XkXXzp05/PF-aprilcandle2.png"; 
 
   }, [currentView]);
 
