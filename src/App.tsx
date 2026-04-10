@@ -16,11 +16,11 @@ export default function App() {
 
   // ข้อมูลรูปภาพสำหรับหน้ารีวิว ThaiTicketMajor
   const ttmGridImgs = [
-    "https://i.postimg.cc/mktFywvx/image.png",
+    "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/k9wgdxdi1lcdgzejxotc.webp",
     "https://i.postimg.cc/Gpb3L8bN/LINE-ALBUM-kh-260403-9.jpg",
     "https://i.postimg.cc/k5wJBJ47/LINE-ALBUM-kh-260403-23.jpg",
     "https://i.postimg.cc/mrVLtLDZ/LINE-ALBUM-kh-260403-24.jpg",
-    "https://i.postimg.cc/qqC9nfMS/image.png",
+    "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/cmluar6xouvlf3tnk82h.webp",
     "https://i.postimg.cc/SKVSJSs4/LINE-ALBUM-kh-260403-20.jpg",
     "https://i.postimg.cc/JhKrGrnm/LINE-ALBUM-kh-260403-21.jpg",
     "https://i.postimg.cc/ZqjbCbR4/LINE-ALBUM-kh-260403-22.jpg",
@@ -38,7 +38,7 @@ export default function App() {
     "https://i.postimg.cc/3w98d8Rx/LINE-ALBUM-kh-260403-27.jpg",
     "https://i.postimg.cc/wBFq7qvT/LINE-ALBUM-kh-260403-25.jpg",
     "https://i.postimg.cc/5tp4640W/LINE-ALBUM-kh-260403-19.jpg",
-    "https://i.postimg.cc/ZqJYbBJ8/LINE-ALBUM-kh-260403-1.jpg",
+    "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/ukuccpinctz809jclic5.webp",
     "https://i.postimg.cc/CK20fss0/image.png"
   ];
 
@@ -70,12 +70,7 @@ export default function App() {
 
   // --- หน้าหลัก (Home View) ---
   const renderHome = () => (
-    <div className="min-h-screen bg-white flex flex-col items-center pb-12" style={{ fontFamily: "'Prompt', sans-serif" }}>
-      {/* โหลดฟอนต์ Prompt จาก Google Fonts */}
-      <style>
-        {`@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800;900&display=swap');`}
-      </style>
-
+    <div className="min-h-screen bg-white flex flex-col items-center pb-12">
       {/* ส่วนหัวแบนเนอร์สีเหลือง (#e8c601) จัดขนาดให้เป๊ะตามแบบ 1.png */}
       <div className="w-full bg-[#e8c601] pt-16 pb-12 px-4 flex flex-col items-center justify-center border-b border-black/10">
         <h1 className="text-4xl md:text-7xl font-[900] text-black leading-[1.1] tracking-tight text-center">
@@ -127,7 +122,7 @@ export default function App() {
     const title = isTTM ? 'รีวิว ThaiTicketMajor' : 'รีวิว AllTicket';
 
     return (
-      <div className="min-h-screen bg-gray-100 pb-12" style={{ fontFamily: "'Prompt', sans-serif" }}>
+      <div className="min-h-screen bg-gray-100 pb-12">
         
         {/* Navigation Bar (ติดหนึบด้านบน) เปลี่ยนเป็นสี #e8c601 */}
         <div className="sticky top-0 w-full bg-[#e8c601] p-4 flex items-center justify-between shadow-md z-50">
