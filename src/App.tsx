@@ -16,11 +16,11 @@ export default function App() {
 
   // ข้อมูลรูปภาพสำหรับหน้ารีวิว ThaiTicketMajor
   const ttmGridImgs = [
-    "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/k9wgdxdi1lcdgzejxotc.webp",
+    "https://i.ibb.co/N0dv556/LINE-ALBUM-260410-1.jpg",
     "https://i.postimg.cc/Gpb3L8bN/LINE-ALBUM-kh-260403-9.jpg",
     "https://i.postimg.cc/k5wJBJ47/LINE-ALBUM-kh-260403-23.jpg",
     "https://i.postimg.cc/mrVLtLDZ/LINE-ALBUM-kh-260403-24.jpg",
-    "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/cmluar6xouvlf3tnk82h.webp",
+    "https://i.ibb.co/5h7nB01m/S-67846164.jpg",
     "https://i.postimg.cc/SKVSJSs4/LINE-ALBUM-kh-260403-20.jpg",
     "https://i.postimg.cc/JhKrGrnm/LINE-ALBUM-kh-260403-21.jpg",
     "https://i.postimg.cc/ZqjbCbR4/LINE-ALBUM-kh-260403-22.jpg",
@@ -38,7 +38,7 @@ export default function App() {
     "https://i.postimg.cc/3w98d8Rx/LINE-ALBUM-kh-260403-27.jpg",
     "https://i.postimg.cc/wBFq7qvT/LINE-ALBUM-kh-260403-25.jpg",
     "https://i.postimg.cc/5tp4640W/LINE-ALBUM-kh-260403-19.jpg",
-    "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/ukuccpinctz809jclic5.webp",
+    "https://i.ibb.co/nMwqNhXR/JH.png",
     "https://i.postimg.cc/CK20fss0/image.png"
   ];
 
