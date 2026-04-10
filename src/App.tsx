@@ -65,8 +65,10 @@ export default function App() {
 
   // เลื่อนกลับไปบนสุดเมื่อเปลี่ยนหน้า
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [currentView]);
+    window.scrollTo(0, 0);
+    // เพิ่มบรรทัดนี้เพื่อเปลี่ยนชื่อบนแท็บ
+    document.title = "Review aprilcandle2"; 
+  }, [currentView]);
 
   // --- หน้าหลัก (Home View) ---
   const renderHome = () => (
