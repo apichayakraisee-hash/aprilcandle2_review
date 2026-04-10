@@ -63,11 +63,23 @@ export default function App() {
     "https://i.postimg.cc/YS8rhr9w/LINE-ALBUM-kh-260403-17.jpg"
   ];
 
-  // เลื่อนกลับไปบนสุดเมื่อเปลี่ยนหน้า
-  useEffect(() => {
+// เลื่อนกลับไปบนสุดเมื่อเปลี่ยนหน้า และตั้งค่าแท็บเบราว์เซอร์
+  useEffect(() => {
     window.scrollTo(0, 0);
-    // เพิ่มบรรทัดนี้เพื่อเปลี่ยนชื่อบนแท็บ
+    
+    // 1. เปลี่ยนชื่อแท็บเว็บ
     document.title = "Review aprilcandle2"; 
+
+    // 2. เปลี่ยนรูปไอคอนเว็บ (Favicon)
+    let link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'icon';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    }
+    // วางลิงก์รูปภาพของคุณตรงนี้ (แนะนำเป็นรูปสี่เหลี่ยมจัตุรัส)
+    link.href = "https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/jgfx2n2mpfb9nmvwlyto.webp"; 
+
   }, [currentView]);
 
   // --- หน้าหลัก (Home View) ---
