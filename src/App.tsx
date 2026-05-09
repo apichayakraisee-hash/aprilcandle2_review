@@ -60,7 +60,9 @@ export default function App() {
     "https://i.postimg.cc/3NZNCXrD/reviewkdb-tr.png",
     "https://i.postimg.cc/25TkVk6v/S-67371013.jpg",
     "https://i.postimg.cc/GpzLHL2G/S-67371014.jpg",
-    "https://i.postimg.cc/YS8rhr9w/LINE-ALBUM-kh-260403-17.jpg"
+    "https://i.postimg.cc/YS8rhr9w/LINE-ALBUM-kh-260403-17.jpg",
+    "https://i.postimg.cc/G2hhBvxq/image.png",
+    "https://i.postimg.cc/sDBx99Cj/image.png"
   ];
 
 // เลื่อนกลับไปบนสุดเมื่อเปลี่ยนหน้า และตั้งค่าแท็บเบราว์เซอร์
